@@ -1,3 +1,9 @@
+--Checked for distinct member_casual values
+SELECT
+    DISTINCT member_casual
+FROM
+    `cyclistic-443809.Cyclistic.Merge`
+--Received the expected ‘member’ and ‘casual’.
 
 -- checking for values in started_at
 SELECT
