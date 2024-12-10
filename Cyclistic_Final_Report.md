@@ -9,7 +9,7 @@ A clear statement of the business task.
 3. How can Cyclistic use digital media to influence casual riders to become members?
 
 **A description of all data sources used.**  
-The data is sources from [Index of bucket "divvy-tripdata"](https://divvy-tripdata.s3.amazonaws.com/index.html)    
+The data is sourced from [Index of bucket "divvy-tripdata"](https://divvy-tripdata.s3.amazonaws.com/index.html)    
 This data has been shared by by Lyft Bikes and Scooters, LLC (“Bikeshare”). They operate the City of Chicago’s (“City”) Divvy bicycle sharing service.  
 And that data has been downloaded and locally stored at C:\\Users\\Frank\\Documents\\Google Course Data\\Capstone Project Cyclistic.   
 The data has been made available by Motivate International Inc.
