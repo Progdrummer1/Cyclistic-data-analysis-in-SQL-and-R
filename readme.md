@@ -100,6 +100,7 @@ Code:  [05 Data Analysis.sql](./05%20Data%20Analysis.sql)
 
 
 *  Calculated maximum, minimum and average travel time per user type.
+*  Visualized this by using Tableau
 
 <img src="https://github.com/user-attachments/assets/33fb70e2-e305-4282-93fa-fe54de99b462" alt="AVG Travel Time" width="100">  
 
@@ -110,7 +111,8 @@ Code:  [05 Data Analysis.sql](./05%20Data%20Analysis.sql)
 * Created a table displaying usage per member type per month.
 * Calculated casual rides per station.
 * Created a table with the day of the week added.
-* Counted Rides Per Day of the Week per Member Type.
+* Counted rides per day of the Week per Member Type.
+* Visualized this by using Tableau
 
 <img src="https://github.com/user-attachments/assets/cb5ed453-2a14-4ba7-a5d4-10b7cc60a7f0" alt="Weekday_Member1" width="300">
 <img src="https://github.com/user-attachments/assets/2e6e40e3-2758-465c-a35a-f6f2050930f0" alt="Weekday_Casual2" width="300">
