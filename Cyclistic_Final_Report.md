@@ -51,7 +51,8 @@ This data has been shared by by Lyft Bikes and Scooters, LLC (“Bikeshare”) a
 
 
 **Data Cleaning**
-The data cleaning in this project has been done in SQL, you can see the code here [04 Datat cleaning.sql](04 Data Cleaning.sql)
+The data cleaning in this project has been done in SQL, you can see the code here [04 Data Cleaning.sql](./04%20Data%20Cleaning.sql)
+
 
 * Created a table for duplicate records
 * Created a deduplicated table
