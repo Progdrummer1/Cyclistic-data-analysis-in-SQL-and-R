@@ -100,11 +100,11 @@ Code:  [05 Data Analysis.sql](./05%20Data%20Analysis.sql)
 
 
 *  Calculated maximum, minimum and average travel time per user type.
-*  Visualized average travel time per user type by using Tableau
+*  Visualized average travel time per user type by using Tableau.
 
 <img src="https://github.com/user-attachments/assets/33fb70e2-e305-4282-93fa-fe54de99b462" alt="AVG Travel Time" width="100">  
 
-* Selected top 10 most popular stations per member type
+* Selected top 10 most popular stations per member type.
 ![image](https://github.com/user-attachments/assets/179629dd-232d-40e3-99a2-94b2f3ca1900)
 
 **The top 10 most popular stations of the annual (member) type of user don’t match the top 10 of the casual users.**
