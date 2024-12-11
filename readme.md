@@ -50,7 +50,7 @@ Code: [01 Database Partitioning.R](./01%20Database%20Partitioning.sql)
 
 All the different databases, of all the monthly reports, including the partitioned reports, have been merged together using SQL. 
 
-Code: [02 Data Combining.sql](./02%20Data%20Combining.sql)
+Code: [02 Data Combining.sql](./02%20Data%20Merging.sql)
 
 
 **Data exploration**
