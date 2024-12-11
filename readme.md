@@ -100,7 +100,7 @@ Code:  [05 Data Analysis.sql](./05%20Data%20Analysis.sql)
 
 
 *  Calculated maximum, minimum and average travel time per user type.
-*  Visualized this by using Tableau
+*  Visualized average travel time per user type by using Tableau
 
 <img src="https://github.com/user-attachments/assets/33fb70e2-e305-4282-93fa-fe54de99b462" alt="AVG Travel Time" width="100">  
 
