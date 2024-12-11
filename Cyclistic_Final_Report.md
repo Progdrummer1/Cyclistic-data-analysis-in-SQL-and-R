@@ -1,4 +1,4 @@
-# Cyslistic: a data analysis to determine the differences between annual and casual bike renters
+# Cyclistic: a data analysis to determine the differences between annual and casual bike renters
 
 # **Introduction**
 Cyclistic is a bike-share company in Chicago. The director of marketing believes that the company’s future success depends on maximizing the number of annual memberships. As a result, our team aims to understand how casual riders and annual members use Cyclistic bikes differently. Based on these insights, our team will design a new marketing strategy to convert casual riders into annual members. However, Cyclistic executives must approve your recommendations, so they need to be supported by compelling data insights and professional data visualizations.
@@ -33,7 +33,7 @@ To answer how annual members and casual riders use Cyclistic bikes differently I
 **Data Source**
 
 The data that is being used is from [Index of bucket "divvy-tripdata"](https://divvy-tripdata.s3.amazonaws.com/index.html) 
-This data has been shared by by Lyft Bikes and Scooters, LLC (“Bikeshare”) and has been made available by Motivate International Inc.. They operate the City of Chicago’s (“City”) Divvy bicycle sharing service. This data has been downloaded and locally stored at C:\\Users\\Frank\\Documents\\Google_Course_Data\\Capstone_Project_Cyclistic.   
+This data has been shared by Lyft Bikes and Scooters, LLC (“Bikeshare”) and has been made available by Motivate International Inc.. They operate the City of Chicago’s (“City”) Divvy bicycle sharing service. This data has been downloaded and locally stored at C:\\Users\\Frank\\Documents\\Google_Course_Data\\Capstone_Project_Cyclistic.   
 
 **Data Partitioning**
 
@@ -43,14 +43,14 @@ Code: [00 Database Partitioning.R](./00%20Database%20Partitioning.sql)
 
 **Data Merging**
 
-All the different databases, of all the montly reports, including the partitioned reports, have been merged together using SQL. 
+All the different databases, of all the monthly reports, including the partitioned reports, have been merged together using SQL. 
 
 Code: [02 Data Combining.sql](./02%20Data%20Combining.sql)
 
 
 **Data exploration**
 
-The data explorationg in this project has been done in BiQuery, using SQL. 
+The data exploring in this project has been done in BigQuery, using SQL. 
 
 Code: : [03 Data Exploration.sql](./03%20Data%20Exploration.sql)
 * Verified that the column contains only the expected values (`member` and `casual`).
@@ -69,7 +69,7 @@ Code: : [03 Data Exploration.sql](./03%20Data%20Exploration.sql)
 
 **Data Cleaning**
 
-The data cleaning in this project has been done in BiQuery, using SQL. 
+The data cleaning in this project has been done in BigQuery, using SQL. 
 
 Code:  [04 Data Cleaning.sql](./04%20Data%20Cleaning.sql)
 
@@ -82,10 +82,10 @@ Code:  [04 Data Cleaning.sql](./04%20Data%20Cleaning.sql)
 * Created a table without negative travel times
 * Removed wrongly rented bike
 * Identified trips with travel times below 2 minutes where the `start_station_name` and `end_station_name` were the same.  
-* Saved these "wrong rents" into a new table `Cyclistic.Cleaned_Wrong_Rents` to address potential errors.
+* Saved these "incorrect rentals" into a new table `Cyclistic.Cleaned_Wrong_Rents` to address potential errors.
 
 # Analysis
-The data explorationg in this project has been done in BiQuery, using SQL. 
+The data explorationg in this project has been done in BigQuery, using SQL. 
 
 Code:  [05 Data Analysis.sql](./05%20Data%20Analysis.sql)
 
@@ -118,10 +118,10 @@ Main differences that I found between annual and casual during this analysis wer
 * Usage by weekday
   
 The most popular biking days for the casual users were on Monday, Saturday and Sunday. 
-The most popular biking days for the anual users were on Tuesday, Wednesda and Thursday. 
+The most popular biking days for the annual users were on Tuesday, Wednesday and Thursday. 
 * Most popular stations
   
-The most popular stations differed by used type. The casual users were probably mainly in the touristy areas, while the casual users were not. 
+The most popular stations differed by used type. The casual users were probably mainly in the touristic areas, while the casual users were not. 
 * Average trip duration
   
 The casual users average trip duration was almost twice as long as the annual average trip duration. This is probably because the casual users were sightseeing, while the annual users were going to work or school. 
@@ -132,5 +132,5 @@ The casual users average trip duration was almost twice as long as the annual av
 
 **My top three recommendations based on my analysis.**  
 * You won’t be able to sell annual memberships to tourists. So don't target the popular stations for casual users.
-* Your target audience will be at the station wich are used by locals, where you already find annual users.  
+* Your target audience will be at the station which are used by locals, where you already find annual users.  
 * You could target hotels and hostels. If they get an annual membership, they can rent it out to their customers.  
