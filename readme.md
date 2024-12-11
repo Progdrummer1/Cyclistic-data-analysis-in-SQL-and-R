@@ -120,9 +120,9 @@ Code:  [05 Data Analysis.sql](./05%20Data%20Analysis.sql)
 
 
 # Share 
-**Key findings:**  
+**Key findings**  
 
-Main differences that I found between annual and casual during this analysis were:
+The main differences that I found between annual and casual during this analysis were:
 
 * Usage by weekday
   
