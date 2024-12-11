@@ -44,7 +44,7 @@ It is nowhere mentioned how the data has been gathered. However due to the natur
 
 From this database I retrieved 12 files, containing monthly bike trip reports, from December '23 till November '24. Since 6 of these files were larger than 100 MB, I partitioned them using R. 
 
-Code: [01 Database Partitioning.R](./01%20Database%20Partitioning.sql)
+Code: [01 Database Partitioning.R](./01%20Database%20Partitioning.R)
 
 **Data Merging**
 
