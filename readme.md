@@ -1,5 +1,5 @@
 # Cyclistic: a data analysis to determine the differences between annual and casual bike renters
-For the stakeholder presentation, click [Here](./Stakeholders%20Presentation.pdf)
+For the stakeholder presentation, click [here](./Stakeholders%20Presentation.pdf).
 
 
 # **Introduction**
