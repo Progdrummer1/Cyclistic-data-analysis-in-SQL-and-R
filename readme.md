@@ -35,8 +35,13 @@ To answer how annual members and casual riders use Cyclistic bikes differently I
 **Data Source**
 
 The data that is being used is from [Index of bucket "divvy-tripdata"](https://divvy-tripdata.s3.amazonaws.com/index.html) 
-This data has been shared by Lyft Bikes and Scooters, LLC (“Bikeshare”) and has been made available by Motivate International Inc.. They operate the City of Chicago’s (“City”) Divvy bicycle sharing service. This data has been downloaded and locally stored at C:\\Users\\Frank\\Documents\\Google_Course_Data\\Capstone_Project_Cyclistic.   
+This data has been shared by Lyft Bikes and Scooters, LLC (“Bikeshare”) and has been made available by Motivate International Inc. under this license [Divvy Bikes Data License Agreement](https://divvybikes.com/data-license-agreement)
+
+ . They operate the City of Chicago’s (“City”) Divvy bicycle sharing service. This data has been downloaded and locally stored at C:\\Users\\Frank\\Documents\\Google_Course_Data\\Capstone_Project_Cyclistic.   
 Sources: [00 Sources](./00%20Sources)
+
+
+https://divvybikes.com/data-license-agreement
 
 **Data credibility**
 
