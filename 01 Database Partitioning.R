@@ -2,14 +2,14 @@
 # Load dplyr
 library(dplyr)
 
-test <- read.csv("C:/Users/Frank/Documents/Google Course Data/Capstone Project Cyclistic/12_months_divvy_tripdata/202409-divvy-tripdata.csv")
+test <- read.csv(".../12_months_divvy_tripdata/202409-divvy-tripdata.csv")
 
-`2024_05`<- read.csv("C:/Users/Frank/Documents/Google Course Data/Capstone Project Cyclistic/12_months_divvy_tripdata/202405-divvy-tripdata.csv")
-`2024_06`<- read.csv("C:/Users/Frank/Documents/Google Course Data/Capstone Project Cyclistic/12_months_divvy_tripdata/202406-divvy-tripdata.csv")
-`2024_07`<- read.csv("C:/Users/Frank/Documents/Google Course Data/Capstone Project Cyclistic/12_months_divvy_tripdata/202407-divvy-tripdata.csv")
-`2024_08`<- read.csv("C:/Users/Frank/Documents/Google Course Data/Capstone Project Cyclistic/12_months_divvy_tripdata/202408-divvy-tripdata.csv")
-`2024_09`<- read.csv("C:/Users/Frank/Documents/Google Course Data/Capstone Project Cyclistic/12_months_divvy_tripdata/202409-divvy-tripdata.csv")
-`2024_10`<- read.csv("C:/Users/Frank/Documents/Google Course Data/Capstone Project Cyclistic/12_months_divvy_tripdata/202410-divvy-tripdata.csv")
+`2024_05`<- read.csv(".../12_months_divvy_tripdata/202405-divvy-tripdata.csv")
+`2024_06`<- read.csv(".../12_months_divvy_tripdata/202406-divvy-tripdata.csv")
+`2024_07`<- read.csv(".../12_months_divvy_tripdata/202407-divvy-tripdata.csv")
+`2024_08`<- read.csv(".../12_months_divvy_tripdata/202408-divvy-tripdata.csv")
+`2024_09`<- read.csv(".../12_months_divvy_tripdata/202409-divvy-tripdata.csv")
+`2024_10`<- read.csv(".../12_months_divvy_tripdata/202410-divvy-tripdata.csv")
 
 
 # Calculate the midpoint
@@ -42,18 +42,18 @@ part2_10 <- `2024_10`[(midpoint10 + 1):nrow(`2024_10`), ]   # Second half
 
 
 # Export the data frame to a CSV file
-write.csv(part1_05 , file = "C:/Users/Frank/Documents/Google Course Data/Capstone Project Cyclistic/R_output_splits/2024_05_part1.csv", row.names = FALSE)
-write.csv(part2_05 , file = "C:/Users/Frank/Documents/Google Course Data/Capstone Project Cyclistic/R_output_splits/2024_05_part2.csv", row.names = FALSE)
-write.csv(part1_06 , file = "C:/Users/Frank/Documents/Google Course Data/Capstone Project Cyclistic/R_output_splits/2024_06_part1.csv", row.names = FALSE)
-write.csv(part2_06 , file = "C:/Users/Frank/Documents/Google Course Data/Capstone Project Cyclistic/R_output_splits/2024_06_part2.csv", row.names = FALSE)
-write.csv(part1_07 , file = "C:/Users/Frank/Documents/Google Course Data/Capstone Project Cyclistic/R_output_splits/2024_07_part1.csv", row.names = FALSE)
-write.csv(part2_07 , file = "C:/Users/Frank/Documents/Google Course Data/Capstone Project Cyclistic/R_output_splits/2024_07_part2.csv", row.names = FALSE)
-write.csv(part1_08 , file = "C:/Users/Frank/Documents/Google Course Data/Capstone Project Cyclistic/R_output_splits/2024_08_part1.csv", row.names = FALSE)
-write.csv(part2_08 , file = "C:/Users/Frank/Documents/Google Course Data/Capstone Project Cyclistic/R_output_splits/2024_08_part2.csv", row.names = FALSE)
-write.csv(part1_09 , file = "C:/Users/Frank/Documents/Google Course Data/Capstone Project Cyclistic/R_output_splits/2024_09_part1.csv", row.names = FALSE)
-write.csv(part2_09 , file = "C:/Users/Frank/Documents/Google Course Data/Capstone Project Cyclistic/R_output_splits/2024_09_part2.csv", row.names = FALSE)
-write.csv(part1_10 , file = "C:/Users/Frank/Documents/Google Course Data/Capstone Project Cyclistic/R_output_splits/2024_10_part1.csv", row.names = FALSE)
-write.csv(part2_10 , file = "C:/Users/Frank/Documents/Google Course Data/Capstone Project Cyclistic/R_output_splits/2024_10_part2.csv", row.names = FALSE)
+write.csv(part1_05 , file = ".../R_output_splits/2024_05_part1.csv", row.names = FALSE)
+write.csv(part2_05 , file = ".../R_output_splits/2024_05_part2.csv", row.names = FALSE)
+write.csv(part1_06 , file = ".../R_output_splits/2024_06_part1.csv", row.names = FALSE)
+write.csv(part2_06 , file = ".../R_output_splits/2024_06_part2.csv", row.names = FALSE)
+write.csv(part1_07 , file = ".../R_output_splits/2024_07_part1.csv", row.names = FALSE)
+write.csv(part2_07 , file = ".../R_output_splits/2024_07_part2.csv", row.names = FALSE)
+write.csv(part1_08 , file = ".../R_output_splits/2024_08_part1.csv", row.names = FALSE)
+write.csv(part2_08 , file = ".../R_output_splits/2024_08_part2.csv", row.names = FALSE)
+write.csv(part1_09 , file = ".../R_output_splits/2024_09_part1.csv", row.names = FALSE)
+write.csv(part2_09 , file = ".../R_output_splits/2024_09_part2.csv", row.names = FALSE)
+write.csv(part1_10 , file = ".../R_output_splits/2024_10_part1.csv", row.names = FALSE)
+write.csv(part2_10 , file = ".../R_output_splits/2024_10_part2.csv", row.names = FALSE)
 
   
 
