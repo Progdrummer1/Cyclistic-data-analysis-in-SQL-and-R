@@ -5,7 +5,7 @@ For the stakeholder presentation, click [here](./Stakeholders%20Presentation.pdf
 # **Introduction**
 Cyclistic is a bike-share company in Chicago. The director of marketing believes that the company’s future success depends on maximizing the number of annual memberships. As a result, our team aims to understand how casual riders and annual members use Cyclistic bikes differently. Based on these insights, our team will design a new marketing strategy to convert casual riders into annual members. However, Cyclistic executives must approve your recommendations, so they need to be supported by compelling data insights and professional data visualizations.
 
-To answer this question, I will go through the process of:
+To answer this question, I will go through the following process:
 
 **Ask:** What is the business question that has to be addressed and how to get to the answer? 
 
