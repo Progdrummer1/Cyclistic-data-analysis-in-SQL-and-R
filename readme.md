@@ -95,6 +95,7 @@ Code:  [04 Data Cleaning.sql](./04%20Data%20Cleaning.sql)
 * Removed wrongly rented bike
 * Identified trips with travel times below 2 minutes where the `start_station_name` and `end_station_name` were the same.  
 * Saved these "incorrect rentals" into a new table `Cyclistic.Cleaned_Wrong_Rents` to address potential errors.
+* Removed these incocorect rentals from the original table. 
 
 # Analysis
 The data explorationg in this project has been done in BigQuery, using SQL. 
