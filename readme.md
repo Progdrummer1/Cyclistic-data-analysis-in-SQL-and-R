@@ -22,12 +22,12 @@ To answer this question, I will go through the following process:
 
 # Ask
 
-This study has focused on the following question: 
+This study has the follong research question:
 
 **How do annual members and casual riders use Cyclistic bikes differently?**  
 
 We want to figure this out so the marketing team of Cyclistic can set up a marketing campaign to convert casual users into annual members. 
-To answer how annual members and casual riders use Cyclistic bikes differently I will analyzing data from the company, tracking each outgoing bike ride. I will inspect this data, clean it and analyze it for different patterns between casual users and annual users.
+To answer how annual members and casual riders use Cyclistic bikes differently I will analyze data from the company, tracking each outgoing bike ride. I will inspect this data, clean it and analyze it for different patterns between casual users and annual users.
 
 
 
@@ -35,11 +35,9 @@ To answer how annual members and casual riders use Cyclistic bikes differently I
 **Data Source**
 
 The data that is being used is from [Index of bucket "divvy-tripdata"](https://divvy-tripdata.s3.amazonaws.com/index.html) 
-This data has been shared by Lyft Bikes and Scooters, LLC (“Bikeshare”) and has been made available by Motivate International Inc. under this license [Divvy Bikes Data License Agreement](https://divvybikes.com/data-license-agreement) . They operate the City of Chicago’s (“City”) Divvy bicycle sharing service. This data has been downloaded and locally stored. 
-Sources: [00 Sources](./00%20Sources)
+This data has been shared by Lyft Bikes and Scooters, LLC (“Bikeshare”) and has been made available by Motivate International Inc. under this license [Divvy Bikes Data License Agreement](https://divvybikes.com/data-license-agreement) . They operate the City of Chicago’s (“City”) Divvy bicycle sharing service. This data has been downloaded and locally stored. For the full references to the data source see [00 Sources](./00%20Sources)
 
 
-https://divvybikes.com/data-license-agreement
 
 **Data credibility**
 
@@ -60,7 +58,7 @@ Code: [02 Data Combining.sql](./02%20Data%20Merging.sql)
 
 **Data exploration**
 
-The data exploring in this project has been done in BigQuery, using SQL. 
+The data exploration in this project has been done in BigQuery, using SQL. 
 
 
 
@@ -95,7 +93,7 @@ Code:  [04 Data Cleaning.sql](./04%20Data%20Cleaning.sql)
 * Removed wrongly rented bike
 * Identified trips with travel times below 2 minutes where the `start_station_name` and `end_station_name` were the same.  
 * Saved these "incorrect rentals" into a new table `Cyclistic.Cleaned_Wrong_Rents` to address potential errors.
-* Removed these incocorect rentals from the original table. 
+* Removed these incorrect rentals from the original table. 
 
 # Analysis
 The data explorationg in this project has been done in BigQuery, using SQL. 
@@ -126,6 +124,13 @@ Code:  [05 Data Analysis.sql](./05%20Data%20Analysis.sql)
 
 
 # Share 
+
+This research has focussed on the following research question:  
+**How do annual members and casual riders use Cyclistic bikes differently?**  
+
+The reason for this is so that the marketing team of Cyclistic can set up a marketing campaign to convert casual users into annual members. 
+
+
 **Key findings**  
 
 The main differences that I found between annual and casual during this analysis were:
