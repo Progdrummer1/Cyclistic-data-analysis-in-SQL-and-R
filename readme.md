@@ -125,6 +125,12 @@ Code:  [05 Data Analysis.sql](./05%20Data%20Analysis.sql)
 
 # Share 
 
+This research has focussed on the following research question:
+
+**How do annual members and casual riders use Cyclistic bikes differently?**
+
+The purpose of this is to enable Cyclistic's marketing team to develop a targeted campaign aimed at converting casual users into annual members.
+
 **Key findings**  
 
 The main differences that I found between annual and casual during this analysis were:
@@ -144,13 +150,11 @@ The casual users average trip duration was almost twice as long as the annual av
 
 # Act 
 
-This research has focussed on the following research question:
-
-**How do annual members and casual riders use Cyclistic bikes differently?**
-
-The purpose of this is to enable Cyclistic's marketing team to develop a targeted campaign aimed at converting casual users into annual members.
-
-**My top three recommendations based on my analysis.**  
+**My top three recommendations for the marketing department, based on my analysis.**  
 * You won’t be able to sell annual memberships to tourists. So don't target the popular stations for casual users.
 * Your target audience will be at the station which are used by locals, where you already find annual users.  
 * You could target hotels and hostels. If they get an annual membership, they can rent it out to their customers.  
+
+**Personal reflection**
+This has been a very educating experience for me. Learning how to work in SQL, R, writing a report and handeling big data sets. I look forward to improving my skills in future assignments! 
+
