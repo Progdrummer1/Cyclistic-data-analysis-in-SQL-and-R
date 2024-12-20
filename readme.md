@@ -12,7 +12,7 @@ To answer this question, I will go through the following process:
 **Process:** Clean and prepare data for analysis.  
 **Analyze:** Analyze the data to get meaningful results, relating to the question to be answered.  
 **Share:** Make compelling visuals in line with what you want to convey to your stakeholders.  
-**Act:** Give recommendations to Cyclistic to improve their company.  
+**Act:** Give recommendations to your client.  
 
 
 # Ask
