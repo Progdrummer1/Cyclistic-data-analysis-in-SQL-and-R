@@ -144,10 +144,11 @@ The casual users average trip duration was almost twice as long as the annual av
 
 # Act 
 
-This research has focussed on the following research question:  
-**How do annual members and casual riders use Cyclistic bikes differently?**  
+This research has focussed on the following research question:
 
-The reason for this is so that the marketing team of Cyclistic can set up a marketing campaign to convert casual users into annual members. 
+**How do annual members and casual riders use Cyclistic bikes differently?**
+
+The purpose of this is to enable Cyclistic's marketing team to develop a targeted campaign aimed at converting casual users into annual members.
 
 **My top three recommendations based on my analysis.**  
 * You won’t be able to sell annual memberships to tourists. So don't target the popular stations for casual users.
