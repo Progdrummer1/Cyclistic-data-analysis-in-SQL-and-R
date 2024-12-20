@@ -96,7 +96,7 @@ Code:  [04 Data Cleaning.sql](./04%20Data%20Cleaning.sql)
 * Removed these incorrect rentals from the original table. 
 
 # Analysis
-The data explorationg in this project has been done in BigQuery, using SQL. 
+The data analysis in this project has been done in BigQuery, using SQL. 
 
 Code:  [05 Data Analysis.sql](./05%20Data%20Analysis.sql)
 
@@ -104,9 +104,9 @@ Code:  [05 Data Analysis.sql](./05%20Data%20Analysis.sql)
 
 
 *  Calculated maximum, minimum and average travel time per user type.  
-  --        Max      Min     AVG  
-  --casual 1509.37   0.02    24.44  
-  --member 1497.65   0.02    12.59
+  -------------Max------Min------AVG  
+  --casual----1509.37--0.02-----24.44  
+  --member--497.65---0.02-----12.59
    
 *  Visualized average travel time per user type by using Tableau.
 
