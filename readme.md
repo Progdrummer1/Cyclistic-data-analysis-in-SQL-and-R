@@ -84,13 +84,13 @@ The data cleaning in this project has been done in BigQuery, using SQL.
 Code:  [04 Data Cleaning.sql](./04%20Data%20Cleaning.sql)
 
 
-* Created a table for duplicate records
-* Created a deduplicated table
-* Created a table without missing station names
-* Added a `Travel_time` column and created a new table
-* Checked `Travel_time` values
-* Created a table without negative travel times
-* Removed wrongly rented bike
+* Created a table for duplicate records.
+* Created a deduplicated table.
+* Created a table without missing station names.
+* Added a `Travel_time` column and created a new table.
+* Checked `Travel_time` values.
+* Created a table without negative travel times.
+* Removed wrongly rented bike.
 * Identified trips with travel times below 2 minutes where the `start_station_name` and `end_station_name` were the same.  
 * Saved these "incorrect rentals" into a new table `Cyclistic.Cleaned_Wrong_Rents` to address potential errors.
 * Removed these incorrect rentals from the original table. 
@@ -103,7 +103,11 @@ Code:  [05 Data Analysis.sql](./05%20Data%20Analysis.sql)
 
 
 
-*  Calculated maximum, minimum and average travel time per user type.
+*  Calculated maximum, minimum and average travel time per user type.  
+  --        Max      Min     AVG  
+  --casual 1509.37   0.02    24.44  
+  --member 1497.65   0.02    12.59
+   
 *  Visualized average travel time per user type by using Tableau.
 
 <img src="https://github.com/user-attachments/assets/33fb70e2-e305-4282-93fa-fe54de99b462" alt="AVG Travel Time" width="100">  
@@ -116,7 +120,7 @@ Code:  [05 Data Analysis.sql](./05%20Data%20Analysis.sql)
 * Calculated casual rides per station.
 * Created a table with the day of the week added.
 * Counted rides per day of the Week per Member Type.
-* Visualized this by using Tableau
+* Visualized this by using Tableau.
 
 <img src="https://github.com/user-attachments/assets/cb5ed453-2a14-4ba7-a5d4-10b7cc60a7f0" alt="Weekday_Member1" width="300">
 <img src="https://github.com/user-attachments/assets/2e6e40e3-2758-465c-a35a-f6f2050930f0" alt="Weekday_Casual2" width="300">
