@@ -125,12 +125,6 @@ Code:  [05 Data Analysis.sql](./05%20Data%20Analysis.sql)
 
 # Share 
 
-This research has focussed on the following research question:  
-**How do annual members and casual riders use Cyclistic bikes differently?**  
-
-The reason for this is so that the marketing team of Cyclistic can set up a marketing campaign to convert casual users into annual members. 
-
-
 **Key findings**  
 
 The main differences that I found between annual and casual during this analysis were:
@@ -149,6 +143,11 @@ The casual users average trip duration was almost twice as long as the annual av
 **Casual users are therefore likely mostly tourists, while annual users are likely mostly locals.**
 
 # Act 
+
+This research has focussed on the following research question:  
+**How do annual members and casual riders use Cyclistic bikes differently?**  
+
+The reason for this is so that the marketing team of Cyclistic can set up a marketing campaign to convert casual users into annual members. 
 
 **My top three recommendations based on my analysis.**  
 * You won’t be able to sell annual memberships to tourists. So don't target the popular stations for casual users.
